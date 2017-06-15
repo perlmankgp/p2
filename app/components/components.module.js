@@ -1,10 +1,10 @@
 import angular from 'angular';
-import { CalendarModule } from './calendar/calendar.module';
-import { EventsModule } from './events/events.module';
+import { BookmarksModule } from './bookmarks/bookmarks.module';
+import { ManagerModule } from './manager/manager.module';
 
 export const ComponentsModule = angular
   .module('app.components', [
-    CalendarModule,
-    EventsModule
+    BookmarksModule,
+    ManagerModule
   ])
   .name;
